@@ -9,5 +9,5 @@ curl --location --request POST 'localhost:3476/v1/tenants/t1/permissions/lookup-
   "metadata": { "depth": 20 },
   "entity_type": "record",
   "permission": "view",
-  "subject": { "type": "user", "id": "AliceMotherDoctor" }
+  "subject": { "type": "user", "id": "Alice" }
 }'

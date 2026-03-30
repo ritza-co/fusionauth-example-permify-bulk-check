@@ -1,8 +1,3 @@
-#!/bin/bash
-# Runs a bulk permissions check for two doctors (Alice and Eve) across all medical records.
-# Requires: curl, jq
-# Run setup.sh first to create the schema and data.
-
 curl --location --request POST 'localhost:3476/v1/tenants/t1/permissions/bulk-check' \
 --header 'Content-Type: application/json' \
 --data-raw '{

@@ -21,17 +21,17 @@ docker run --rm --name="permify" -p 3476:3476 -p 3478:3478 ghcr.io/permify/permi
 In a second terminal:
 
 ```sh
-bash setup.sh
+sh setup.sh
 ```
 
 **3. Run the bulk permissions check**
 
 ```sh
-bash bulk-check.sh
+sh bulk-check.sh
 ```
 
 **4. (Optional) Run the lookup-entity example**
 
 ```sh
-bash lookup-entity.sh
+sh lookup-entity.sh
 ```

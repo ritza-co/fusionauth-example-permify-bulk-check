@@ -1,8 +1,3 @@
-#!/bin/bash
-# Sets up the medical records schema and example data in a local Permify instance.
-# Requires: curl, jq
-# Permify must be running on localhost:3476 (see README.md)
-
 # write schema - https://docs.permify.co/api-reference/schema/write-schema
 schemaVersion=$(curl --location --request POST 'localhost:3476/v1/tenants/t1/schemas/write' \
   --header 'Content-Type: application/json' \
